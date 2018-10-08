@@ -111,7 +111,7 @@ class Concept
      *
      * @return $this
      */
-    public function setId(string $id)
+    public function setId($id)
     {
         $this->id = $id;
 
@@ -131,7 +131,7 @@ class Concept
      *
      * @return $this
      */
-    public function setName(string $name)
+    public function setName($name)
     {
         $this->name = $name;
 
@@ -153,7 +153,7 @@ class Concept
      *
      * @return $this
      */
-    public function setCreatedAt(string $createdAt)
+    public function setCreatedAt($createdAt)
     {
         $this->createdAt = $createdAt;
 
@@ -175,7 +175,7 @@ class Concept
      *
      * @return $this
      */
-    public function setAppId(string $appId)
+    public function setAppId($appId)
     {
         $this->appId = $appId;
 
@@ -215,7 +215,7 @@ class Concept
      *
      * @return $this
      */
-    public function setUpdatedAt(string $updatedAt)
+    public function setUpdatedAt($updatedAt)
     {
         $this->updatedAt = $updatedAt;
 
@@ -235,7 +235,7 @@ class Concept
      *
      * @return $this
      */
-    public function setLanguage(string $language)
+    public function setLanguage($language)
     {
         $this->language = $language;
 

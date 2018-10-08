@@ -80,7 +80,7 @@ class RequestHandler
      * @return array
      * @throws ApiException
      */
-    public function handleRequest(string $method, string $uri = '', array $options = [], array $parameters = [])
+    public function handleRequest($method, $uri = '', array $options = [], array $parameters = [])
     {
         // Are we going a GET or a POST?
         if (!empty($parameters)) {
@@ -118,7 +118,7 @@ class RequestHandler
      *
      * @throws ApiException
      */
-    public function request(string $method, string $path, array $parameters = [])
+    public function request($method, $path, array $parameters = [])
     {
         $options = [
             'headers' => [

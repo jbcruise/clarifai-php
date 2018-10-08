@@ -104,7 +104,7 @@ class InputRepository extends BaseRepository
      *
      * @return array
      */
-    public function generateImageAddress(string $image, $method = null)
+    public function generateImageAddress($image, $method = null)
     {
         if ($method == Input::IMG_BASE64) {
             return ['base64' => $image];

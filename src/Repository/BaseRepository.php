@@ -86,7 +86,7 @@ abstract class BaseRepository
      *
      * @return $this
      */
-    public function setPage(string $page)
+    public function setPage($page)
     {
         $this->page = $page;
 
@@ -106,7 +106,7 @@ abstract class BaseRepository
      *
      * @return $this
      */
-    public function setPerPage(string $perPage)
+    public function setPerPage($perPage)
     {
         $this->perPage = $perPage;
 

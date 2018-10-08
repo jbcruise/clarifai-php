@@ -159,7 +159,7 @@ class Input
      *
      * @return $this
      */
-    public function setId(string $id)
+    public function setId($id)
     {
         $this->id = $id;
 
@@ -179,7 +179,7 @@ class Input
      *
      * @return $this
      */
-    public function setImage(string $image)
+    public function setImage( $image)
     {
         $this->image = $image;
 
@@ -199,7 +199,7 @@ class Input
      *
      * @return $this
      */
-    public function setImageMethod(string $imageMethod)
+    public function setImageMethod($imageMethod)
     {
         $this->imageMethod = $imageMethod;
 
@@ -328,7 +328,7 @@ class Input
      *
      * @return $this
      */
-    public function setCreatedAt(string $createdAt)
+    public function setCreatedAt($createdAt)
     {
         $this->createdAt = $createdAt;
 
@@ -356,7 +356,7 @@ class Input
      *
      * @return $this
      */
-    public function setStatusCode(string $statusCode)
+    public function setStatusCode($statusCode)
     {
         $this->statusCode = $statusCode;
 
@@ -376,7 +376,7 @@ class Input
      *
      * @return $this
      */
-    public function setStatusDescription(string $statusDescription)
+    public function setStatusDescription($statusDescription)
     {
         $this->statusDescription = $statusDescription;
 

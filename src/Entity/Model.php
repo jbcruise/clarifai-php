@@ -129,7 +129,7 @@ class Model
      *
      * @return $this
      */
-    public function setId(string $id)
+    public function setId($id)
     {
         $this->id = $id;
 
@@ -149,7 +149,7 @@ class Model
      *
      * @return $this
      */
-    public function setName(string $name)
+    public function setName($name)
     {
         $this->name = $name;
 
@@ -171,7 +171,7 @@ class Model
      *
      * @return $this
      */
-    public function setCreatedAt(string $createdAt)
+    public function setCreatedAt($createdAt)
     {
         $this->createdAt = $createdAt;
 
@@ -193,7 +193,7 @@ class Model
      *
      * @return $this
      */
-    public function setAppId(string $appId)
+    public function setAppId($appId)
     {
         $this->appId = $appId;
 

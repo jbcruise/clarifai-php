@@ -213,7 +213,7 @@ class ModelRepository extends BaseRepository
      *
      * @return Model
      */
-    public function train(string $id)
+    public function train($id)
     {
         $modelResult = $this->getRequest()->request(
             'POST',
@@ -546,7 +546,7 @@ class ModelRepository extends BaseRepository
      *
      * @return array
      */
-    public function deleteById(string $modelId)
+    public function deleteById($modelId)
     {
         $deleteResult = $this->getRequest()->request(
             'DELETE',
@@ -564,7 +564,7 @@ class ModelRepository extends BaseRepository
      *
      * @return array
      */
-    public function deleteVersionById(string $modelId, string $versionId)
+    public function deleteVersionById($modelId, $versionId)
     {
         $deleteResult = $this->getRequest()->request(
             'DELETE',
@@ -597,7 +597,7 @@ class ModelRepository extends BaseRepository
      *
      * @return array
      */
-    public function getTrainingInputsById(string $modelId)
+    public function getTrainingInputsById($modelId)
     {
         $inputResult = $this->getRequest()->request(
             'GET',
@@ -615,7 +615,7 @@ class ModelRepository extends BaseRepository
      *
      * @return array
      */
-    public function getTrainingInputsByVersion(string $modelId, string $versionId)
+    public function getTrainingInputsByVersion($modelId, string $versionId)
     {
         $inputResult = $this->getRequest()->request(
             'GET',
