@@ -19,7 +19,7 @@ alike.
 composer require darrynten/clarifai-php
 ```
 
-PHP 7.0+
+PHP 5.6+
 
 ## Basic use
 
